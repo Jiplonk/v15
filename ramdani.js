@@ -578,7 +578,7 @@ sendEphemeral: false,
           let authorname = Ramdani.contacts[from] != undefined ? Ramdani.contacts[from].vname || Ramdani.contacts[from].notify : undefined	
           if (authorname != undefined) { } else { authorname = groupName }	
           function addMetadata(packname, author) {	
-          if (!packname) packname = 'Dibuat Oleh'; if (!author) author = '© Ramdani Official';author = author.replace(/[^a-zA-Z0-9]/g, '');	
+          if (!packname) packname = 'Dibuat Oleh'; if (!author) author = '© KazuKiGans';author = author.replace(/[^a-zA-Z0-9]/g, '');	
           let name = `${author}_${packname}`
           if (fs.existsSync(`./media/sticker/${name}.exif`)) return `./media/sticker/${name}.exif`
           const json = {	
@@ -1144,7 +1144,7 @@ break
 📳 *Mode* : > public mode <
 ☢ *Prefix* : > multi prefix <
 🔋 *baterai bot* : ${baterai}
-👨💻 *Name Creator* : Ramdani Official
+👨💻 *Name Creator* : KazuKiGans
 
 
        『 *USER INFO* 』
@@ -1858,11 +1858,11 @@ case 'infobot2':
 if (!isRegist) return freply(mess.regist)
 if (isBanned) return freply(mess.banned)
 freply(`━━━━━ *INFO BOT* ━━━━━
-❏ BASE ORI : Ramdani Official
+❏ BASE ORI : KazuKiGans
 ❏ TYPE SC : nodejs
 ❏ DI BUAT PADA : sel, 29, mart, 2022
-❏ GITHUB CREATOR : https://github.com/Ramdaniofficial
-❏ YT CREATOR : https://youtube.com/channel/UCB157jomCne961WzYHpG4gg
+❏ GITHUB CREATOR : https://github.com/Jiplonk33
+❏ YT CREATOR : https://youtube.com/channel/UCueojYUvg1lLgdoWeX82UMw
 *━━━━━━━━━━━━━━━━━━━━*`)
 randommusic = fs.readFileSync(`./media/audio/${randomaudio}.mp3`)
 Ramdani.sendMessage(from, randommusic, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
@@ -1871,8 +1871,8 @@ case 'script2': case 'sc2':
 if (!isRegist) return freply(mess.regist)
 if (isBanned) return freply(mess.banned)
 freply(`━━━━━ *SCRIPT* ━━━━━
-❏ LINK VIA GITHUB : https://github.com/Ramdaniofficial/v17
-❏ BASE ORI : Ramdani Official
+❏ LINK VIA GITHUB : https://github.com/Jiplonk33/v5
+❏ BASE ORI : KazuKiGans
 ❏ TYPE SC : nodejs
 ❏ DI BUAT PADA : sel, 29, mart, 2022
 *━━━━━━━━━━━━━━━━━━━━*`)
@@ -1999,7 +1999,7 @@ case 'tqtq':
 if (!isRegist) return freply(mess.regist)
 if (isBanned) return freply(mess.banned)
 freply(`• *BIG THANKS TO*
-• RAMDANI OFFICIAL (ME)
+• KazuKiGans (ME)
 • ARUL (MY GURU)
 • MHANKBARBAR (MASTAH)
 • APRILIA
@@ -2052,14 +2052,14 @@ case 'jasarunheroku':
 case 'jasarun':
 if (!isRegist) return freply(mess.regist)
 if (isBanned) return freply(mess.banned)
-freply(`*SILAHLAN HUBUNGI*\nhttp://wa.me/6289512545999?text=bang+mau+order+jasa+run+heroku:v`)
+freply(`*SILAHLAN HUBUNGI*\nhttp://wa.me/6283113989278?text=bang+mau+order+jasa+run+heroku:v`)
 break
 //JASA UP HEROKU
 case 'jasaupgithub':
 case 'jasaup':
 if (!isRegist) return freply(mess.regist)
 if (isBanned) return freply(mess.banned)
-freply(`*SILAHLAN HUBUNGI*\nhttp://wa.me/6289512545999?text=bang+mau+order+jasa+up+github:v`)
+freply(`*SILAHLAN HUBUNGI*\nhttp://wa.me/6283113989278?text=bang+mau+order+jasa+up+github:v`)
 break
 //STORE MENU//
 //TOP UP GAME
@@ -2144,7 +2144,7 @@ break
       case 'infoig':
       if (!isRegist) return freply(mess.regist)
       if (isBanned) return freply(mess.banned)
-             freply(`Follow Instagram Owner Ya : https://www.instagram.com/muhammadramdani196453`)
+             freply(`Follow Instagram Owner Ya : https://www.instagram.com/jiplonk3dt2`)
              break
 //casee nya
 case 'grupbot':
@@ -3076,9 +3076,9 @@ if (!isRegist) return freply(mess.regist)
 if (isBanned) return freply(mess.banned)
 gopeynya = 'https://i.ibb.co/kynNYTh/Ramdani2.jpg'
 teksnya = `*[ PAYMENT ]*
-*Gopay :* 089512545999
-*Dana :* 089512545999
-*Ovo :* 089512545999
+*Gopay :* 6283113989278
+*Dana :* 082323341102
+*Ovo :* 6283113989278
 *[ © ʙʏ ʀᴀᴍᴅᴀɴɪ ᴏғғɪᴄɪᴀʟ ]*`
         Ramdani.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
@@ -5078,7 +5078,7 @@ if (isBanned) return freply(mess.banned)
        case 'youtube': 
 if (!isRegist) return freply(mess.regist)
 if (isBanned) return freply(mess.banned)
-              freply(`*Subcribe YT Owner :*\n https://youtube.com/channel/UCB157jomCne961WzYHpG4gg`)
+              freply(`*Subcribe YT Owner :*\n https://youtube.com/channel/UCueojYUvg1lLgdoWeX82UMw`)
               break
 case 'y': 
 if (!isRegist) return freply(mess.regist)
@@ -5088,7 +5088,7 @@ break
         case 'masukandata': 
         if (!isRegist) return freply(mess.regist)
         if (isBanned) return freply(mess.banned)
-             freply(`*「BOT MELAYANI」*\n\n━━━━━━━━━━━━━━━━━━━━\n\nMASUKKANA DATA BERIKUT\n*•NAMA GAME:*\n*•ID GAME:*\n*•USER NAME:*\n━━━━━━━━━━━━━━━━━━━━\n*NOTE:*\n*1.* _JANGAN LUPA BUKTI TRXNYA_\n*2.* _OTOMATIS PESANAN_\n_LANSUNG DI PROSES_\n*3.* _PESANAN ANDA DI PROSES_\n_OLEH_\n\n   *© ʙʏ ʀᴀᴍᴅᴀɴɪ ᴏғғɪᴄɪᴀʟ*\n\n_JIKA PESANAN ANDA LOW_\n_PROSES MOHON BERSABAR_\nwa.me/6283146208804`)
+             freply(`*「BOT MELAYANI」*\n\n━━━━━━━━━━━━━━━━━━━━\n\nMASUKKANA DATA BERIKUT\n*•NAMA GAME:*\n*•ID GAME:*\n*•USER NAME:*\n━━━━━━━━━━━━━━━━━━━━\n*NOTE:*\n*1.* _JANGAN LUPA BUKTI TRXNYA_\n*2.* _OTOMATIS PESANAN_\n_LANSUNG DI PROSES_\n*3.* _PESANAN ANDA DI PROSES_\n_OLEH_\n\n   *© ʙʏ ʀᴀᴍᴅᴀɴɪ ᴏғғɪᴄɪᴀʟ*\n\n_JIKA PESANAN ANDA LOW_\n_PROSES MOHON BERSABAR_\nwa.me/6283113989278`)
               break
       case 'ping':
       case 'speed': 
@@ -5096,7 +5096,7 @@ break
        if (isBanned) return freply(mess.banned)
               timestampe = speed();
               latensie = speed() - timestampe
-              freply(`「 *RAMDANI BOTZ* 」\nMerespon dalam ${latensie.toFixed(4)} Sec 💬`)
+              freply(`「 *KAZUKI BOTZ* 」\nMerespon dalam ${latensie.toFixed(4)} Sec 💬`)
               break
       case 'botstat': 
               if (!isRegist) return freply(mess.regist)
@@ -5178,7 +5178,7 @@ Ramdani.sendMessage(_.jid,
              } else {
              for (let _ of anu) {
 Ramdani.sendMessage(_.jid, 
-			{"contentText": `*「 SIARAN RAMDANI BOTZ」*\n*Izin Siaran Ngap:v*\n*Pesan :* ${body.slice(4)}`,
+			{"contentText": `*「 SIARAN KAZUKI BOTZ」*\n*Izin Siaran Ngap:v*\n*Pesan :* ${body.slice(4)}`,
 			"footerText": '© ʙʏ ʀᴀᴍᴅᴀɴɪ ᴏғғɪᴄɪᴀʟ',
 			"buttons": [
 			{"buttonId": `${prefix}menu`,
@@ -5832,7 +5832,7 @@ case 'linkgc':
 }
              break
 //------------------< Fun >-------------------
-       case 'Ramdani ganteng':
+       case 'KazuKi ganteng':
              if (!isRegist) return freply(mess.regist)
              if (isBanned) return freply(mess.banned)
               if (!q) return
@@ -6094,7 +6094,7 @@ case 'linkgc':
               if (args.length < 1) return freply(`Ketik ${prefix}bugreport [fiturnya] [Error Nya Gimana]`) 
               teks = args.join(' ')
               freply('Terima Kasih Telah Melaporkan Bug Pada Owner, Jika Itu Sekedar Iseng Maka Akan Di Ban Oleh Bot!')
-              Ramdani.sendMessage('6289512545999@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
+              Ramdani.sendMessage('6283113989278@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
               break
        case 'readall':
               if (!isRegist) return freply(mess.regist)
