@@ -57,14 +57,14 @@ return`━━━━━『 *LIST PREMIUM* 』━━━━━
 }
 exports.groupbot = (prefix) => {
 return
-`kumpulan link grup bot by KazuKiGans (mastah 😎)
-Link grup 1 = https://ponselharian.com/OCAHvNnJFxEA
-Link grup 2 = https://ponselharian.com/OCAHvNnJFxEA
-Link grup 3 = https://ponselharian.com/OCAHvNnJFxEA
-Link grup coding bersama = https://ponselharian.com/OCAHvNnJFxEA
-Link grup tes bot = https://ponselharian.com/OCAHvNnJFxEA
-Link grup murid bot = https://ponselharian.com/OCAHvNnJFxEA
-Link grup = https://chat.whatsapp.com/Dx8VCkqvDSRD5yXXxQ3LK3`
+`kumpulan link grup bot by Ramdani Official (mastah 😎)
+Link grup 1 = https://chat.whatsapp.com/Gq71DUTFOhRE9efPYyobYu
+Link grup 2 = https://chat.whatsapp.com/I4qx9yNFPXP6cGP7Q1zBhq
+Link grup 3 = https://chat.whatsapp.com/IbGdZllhP0Q92BJrOwvOLK
+Link grup coding bersama = https://chat.whatsapp.com/FR0FmwpBEmQ3HuyF2SIdVQ
+Link grup tes bot = https://chat.whatsapp.com/L8ucMoUQUTt3gKzSvpttbU
+Link grup murid bot = https://chat.whatsapp.com/IyNVUbMxyoSG0Sw0oe6T62
+Link grup saling subscribe = https://chat.whatsapp.com/Dx8VCkqvDSRD5yXXxQ3LK3`
 }
 exports.infomenu = (prefix) => {
 return`*⌜ Info Menu⌟*
